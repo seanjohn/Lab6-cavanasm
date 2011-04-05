@@ -1,0 +1,26 @@
+import java.util.Locale;
+
+import org.junit.Test;
+
+
+
+public class PrintBalanceTest {
+	@Test
+	public void testEnglishGreeting(){
+		PrintBalance test = new PrintBalance(new Locale("en","US"));
+		assertEquals(test.greeting(),"Hello World");
+		
+	}
+	
+	@Test
+	public void testFrenchGreeting(){
+		
+	}
+	
+	@Test
+	public void testGermanGreeting(){
+		
+	}
+	
+	
+}

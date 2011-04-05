@@ -1,0 +1,38 @@
+import java.util.Date;
+import java.util.Scanner;
+
+
+/**
+ * TODO A simple class that needs to be localized
+ *
+ * @author mohan.
+ *         Created Mar 27, 2010.
+ */
+public class PrintBalance{
+
+	
+	/**
+	 * Simple Java Method that is crying out to be localized.
+	 *
+	 * @param args
+	 */
+	public static void main(String args[])
+	{
+	
+		Scanner scanInput = new Scanner(System.in);
+		Date today = new Date();
+		
+		//Greeting
+		System.out.println("greeting");
+		
+		//Get User's Name
+		System.out.println("nameRequest");
+		String name = scanInput.nextLine();
+		System.out.println("kindRemark " + name);
+		
+		//print today's date, balance and bid goodbye
+		System.out.println("dateBegin "+ today.toString());
+		System.out.println("owedAmount");
+		System.out.println("farewell");
+	}
+}
